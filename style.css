@@ -863,3 +863,233 @@ footer .socials a:active {
   transform: scale(100%);
   transition: transform 0.1s ease;
 }
+@media (max-width: 1400px) {
+  body {
+    width: 100%;
+  }
+  #menu .content,
+  #sign-up .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    height: auto;
+  }
+  header .circle {
+    width: 500px;
+    height: 500px;
+    right: -25%;
+  }
+  header .circle img {
+    width: 600px;
+    height: 600px;
+  }
+  #about-us,
+  #newly-added {
+    height: auto;
+  }
+  #about-us .block,
+  #newly-added .block {
+    width: 100%;
+    height: 400px;
+  }
+  #about-us .block img,
+  #newly-added .block img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+  }
+  nav .actions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav .actions a {
+    font-size: 18px;
+  }
+  header {
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding-bottom: 0;
+  }
+  header h1,
+  header p {
+    width: 100%;
+    text-align: center;
+  }
+  header .actions {
+    flex-direction: column;
+  }
+  header .circle {
+    position: static;
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  header .circle img {
+    width: 300px;
+    height: 300px;
+  }
+  header .bg-text {
+    display: none;
+  }
+  #about-us {
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  #about-us h5,
+  #about-us h1,
+  #about-us p {
+    width: 90%;
+    text-align: center;
+  }
+  #about-us .block {
+    position: relative;
+    transform: none;
+    width: 80%;
+    height: auto;
+    order: -1;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  #about-us .block .shape {
+    display: none;
+  }
+  #about-us .block img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  #about-us .bg-text {
+    display: none;
+  }
+  #menu {
+    height: auto;
+  }
+  #menu .content {
+    padding: 3rem 1rem;
+  }
+  #menu .content .categories {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  #menu .content .product-showcase {
+    flex-direction: column;
+    height: auto;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+  #menu .content .product-showcase .product {
+    width: 100%;
+    transform: none;
+  }
+  #menu .content .product-showcase .arrow-left,
+  #menu .content .product-showcase .arrow-right {
+    display: none;
+  }
+  #menu .bg-text1,
+  #menu .bg-text2 {
+    display: none;
+  }
+  #newly-added {
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  #newly-added h5,
+  #newly-added h1,
+  #newly-added p {
+    width: 90%;
+    text-align: center;
+  }
+  #newly-added .block {
+    position: relative;
+    transform: none;
+    width: 80%;
+    height: auto;
+    order: -1;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  #newly-added .block .shape {
+    display: none;
+  }
+  #newly-added .block img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  #newly-added .bg-text1,
+  #newly-added .bg-text2 {
+    display: none;
+  }
+  #sign-up .content {
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  #sign-up .subscribe {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  #sign-up .content input {
+    width: 100%;
+    text-align: center;
+  }
+  #sign-up .sign-up-btn {
+    width: 100%;
+  }
+  #sign-up .bg-text1,
+  #sign-up .bg-text2 {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .actions a {
+    font-size: 16px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  header p {
+    font-size: 16px;
+  }
+  #about-us h1,
+  #newly-added h1,
+  #sign-up .content h2 {
+    font-size: 36px;
+  }
+  #menu .content h4 {
+    font-size: 32px;
+  }
+  #menu .content .product-showcase .product h5 {
+    font-size: 28px;
+  }
+  #menu .content .product-showcase .product .info p {
+    font-size: 22px;
+  }
+}
